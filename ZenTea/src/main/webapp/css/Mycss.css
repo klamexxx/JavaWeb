@@ -1,0 +1,125 @@
+/* 设置页面背景颜色为绿色 */
+body {
+}
+.navbar {
+    background-color: #006400 !important;
+
+}
+
+.navbar-brand img {
+    width: 48px;
+}
+
+.head_search {
+    background-color: #E6F4E6;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search_left {
+    padding-left: 40px;
+}
+
+.search_right {
+    padding-right: 40px;
+    padding-bottom: 10px;
+}
+
+.login_div {
+    float: right;
+    display: flex;
+    justify-content: space-between;
+}
+.login_div .logbox .btn-group a{
+    color: black;
+}
+
+.login_div a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.login_div .logbox {
+    font-size: 20px;
+    margin: auto;
+    padding-right: 40px;
+    justify-content: space-around;
+}
+
+.logincontainer {
+    background-color: floralwhite;
+    border: 1px solid floralwhite;
+    margin-top: 60px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 500px;
+    border-radius: 10px;
+}
+.logincontainer .loginheader{
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.logincontainer form{
+    margin: 40px;
+
+}
+.logincontainer > form>div:last-child {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.blurry-background {
+    position: fixed;
+    background-image: url('../image/background_img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+ .error-message {     color: red;
+     font-size: 12px;
+ }
+.personInfo{
+    position: absolute;
+}
+
+/*茶叶预览页css*/
+.tea_view_container{
+    width: 100%;
+}
+
+.tea_view_container .container h4 {
+    margin-top: 30px;
+    text-align: center;
+    color: green;
+}
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+
+.left-nav{
+    width: 10%;
+    height: 100%;
+}
+
+/**/
+.viewAllTea{
+    width: 100%;
+}
+
+.search_top{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.search_top form {
+    flex: 1; /* 均分可用空间 */
+    margin-right: 10px; /* 设置表单之间的间距 */
+}
